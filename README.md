@@ -1,7 +1,7 @@
 # Boid_Flocking_Animation
 Simulating flock of birds using p5.js 
 
-
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/77375933/152075089-c2bd4c04-b515-4d5d-a8ab-558448e4a637.gif)
 
 Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. \
 As with most artificial life simulations, Boids is an example of emergent behavior; that is, the complexity of Boids arises from the interaction of individual agents (the boids, in this case) adhering to a set of simple rules. The rules applied in the simplest Boids world are as follows:
