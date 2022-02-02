@@ -5,15 +5,20 @@ class Boid {
         this.acceleration = createVector();
         this.maxForce = 0.05;
         this.maxSpeed = 4;
-        this.history = [];
+        this.r = 3;
     }
 
     Show(r,g,b) {
-        strokeWeight(8);
+      
         stroke(r,g,b);
-        this.history.push(this.position);
+        fill(200, 100);
+        push();
 
-        point(this.position.x, this.position.y);
+        let theta = this.velocity.heading() + radians(90);
+        translate(this.position.x, this.position.y);
+        rotate(theta);
+        triangle(0, -this.r*2, -this.r, this.r*2, this.r, this.r*2);
+        pop();
 
     }
 
